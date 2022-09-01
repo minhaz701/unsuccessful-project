@@ -1,0 +1,70 @@
+
+        
+     div{
+        width: 50%;
+          text-align: center;
+      margin: auto;
+     }
+     * {
+      margin: 0;
+      padding: 0;
+      border: 0;
+      outline: 0;
+      box-sizing: border-box;
+     }
+
+
+     body{
+      background-color: brown;
+      color: red;
+     }
+    #Admin-Box{
+      background-color: black;
+      width: 50%;
+      text-align: center;
+      margin: 100px auto 0px;
+      padding: 20px;
+      border-radius: 20px;
+    }
+    h1 {
+      padding: 20px 25px 50px 20px;
+      color: rgb(222, 17, 82);
+     }
+    #Admin-Box h1 {
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+       }
+     form{
+      margin: 20px 0px;
+     }
+     input,label{
+      display: block;
+      width: 90%;
+      margin: auto;
+      padding: 10px;
+     }
+     label{
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     input[type="submit"] {
+      width: 50%;
+      margin-top: 20px;
+      background-color: red;
+      font-size: 17px;
+     transition: ease-in-out 0.8s;
+     }
+     input[type="submit"]:hover{
+      background-color: brown;
+      border-radius: 5px;
+     }
+     p{
+      margin: 10px 0px;
+      font-size: 20px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     p a{
+      color: rgb(255, 244, 244);
+      text-decoration: none;
+      text-transform: capitalize;
+     }
